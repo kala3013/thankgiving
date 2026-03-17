@@ -1,0 +1,93 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+}
+
+.hero {
+  padding: 80px;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 50px;
+}
+
+.memories {
+  background: white;
+  padding: 40px;
+}
+
+.gallery img {
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.gallery video {
+  margin-top: 20px;
+}
+
+.thanks {
+  padding: 50px;
+  background: #ffe0f0;
+}
+
+button {
+  padding: 12px 25px;
+  background: #ff4081;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.hearts{
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  font-size:30px;
+  animation: floatHearts 10s linear infinite;
+  pointer-events:none;
+}
+
+@keyframes floatHearts{
+  0%{
+    transform: translateY(100vh);
+    opacity:1;
+  }
+  100%{
+    transform: translateY(-10vh);
+    opacity:0;
+  }
+}
+.intro{
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  background:linear-gradient(135deg,#ff6a88,#ff99ac);
+  color:white;
+  text-align:center;
+}
+
+.intro h1{
+  font-size:60px;
+}
+
+.intro button{
+  margin-top:30px;
+  padding:15px 30px;
+  font-size:18px;
+  border:none;
+  border-radius:30px;
+  background:white;
+  color:#ff4081;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.intro button:hover{
+  transform:scale(1.1);
+}
