@@ -9,13 +9,7 @@ function Hero() {
         animate={{ scale: 1 }}
         transition={{ duration: 1 }}
       >
-        💖 Thank You Sister 💖
       </motion.h1>
-
-      <p>
-        Thank you for training me in MERN Stack for 12 amazing days.
-        Your support and teaching means a lot to me.
-      </p>
     </div>
   );
 }
