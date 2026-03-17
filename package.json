@@ -1,6 +1,7 @@
 {
   "name": "thank-you-sis",
   "version": "0.1.0",
+  "homepage": "https://kala3013.github.io/thankgiving",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
@@ -14,8 +15,7 @@
     "react-icons": "^5.6.0",
     "react-scripts": "^5.0.1",
     "react-simple-typewriter": "^5.0.1",
-    "web-vitals": "^2.1.4",
-    "homepage": "https://kala3013.github.io/thankgiving"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",

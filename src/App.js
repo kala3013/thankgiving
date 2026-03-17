@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import Hero from "./components/Hero";
-import Memories from "./components/Memories";
-import Gallery from "./components/Gallery";
 import Intro from "./components/Intro";
 import ThankYou from "./components/ThankYou";
 import FloatingHearts from "./components/FloatingHearts";
@@ -13,6 +11,12 @@ import MemoryCards from "./components/MemoryCards";
 import ReasonsWhy from "./components/ReasonsWhy";
 import WishWall from "./components/WishWall";
 import FinalReveal from "./components/FinalReveal";
+
+// New enhanced components
+import CountdownTimer from "./components/CountdownTimer";
+import QuoteCarousel from "./components/QuoteCarousel";
+import HandwrittenSignature from "./components/HandwrittenSignature";
+import Transformation from "./components/Transformation";
 
 function App() {
   const [enter, setEnter] = useState(false);
@@ -26,10 +30,14 @@ function App() {
       <MusicPlayer />
       <FloatingHearts />
       <Hero />
+      <CountdownTimer />
       <TypingMessage />
+      <Transformation />
       <Timeline />
       <MemoryCards />
+      <QuoteCarousel />
       <PhotoGallery />
+      <HandwrittenSignature />
       <ReasonsWhy />
       <WishWall />
       <ThankYou />
